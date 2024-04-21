@@ -93,7 +93,7 @@ def start(message):
 @bot.message_handler(commands=['rock'])
 def start(message):
     global d, c, ritm, user
-    if d == "ножницы":
+    if d == "":
         bot.send_message(message.from_user.id, win, si)
         user[ritm][0] +=1
     elif d == "камень":
