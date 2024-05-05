@@ -75,7 +75,7 @@ def start(message):
 
 @bot.message_handler(commands=['misha'])
 def start(message):
-    global a
+    global m
     bot.send_message(message.from_user.id, m)
 
 
