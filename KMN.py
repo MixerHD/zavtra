@@ -5,8 +5,7 @@ a = """
 Это бот, который будет играть с тобой в камень ножницы бумага
 Нажми /scissors чтобы показать ножницы
 Нажми /rock чтобы показать камень
-Нажми /paper чтобы показать бумагу
-"""
+Нажми /paper чтобы показать бумагу"""
 b = """
 Бумага побеждает камень («бумага обёртывает камень»)
 Камень побеждает ножницы («камень затупляет ножницы»)
@@ -48,14 +47,12 @@ d = random.choice(c)
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    global ritm, i_d, user, u, h, e
-    ritm = 0
+    global user, u, h, e
     if message.from_user.id in user.keys():
         bot.send_message(message.from_user.id, u)
         bot.send_message(message.from_user.id, h)
     else:
-        i_d.append(message.from_user.id)
-        user.append([0, 0])
+        user[message.from_user.id] = [0, 0]
         bot.send_message(message.from_user.id, e)
     
 
@@ -120,3 +117,11 @@ def start(message):
 
 
 bot.polling(none_stop=True, interval=0, timeout=120)
+
+
+
+
+
+
+
+
