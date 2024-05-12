@@ -6,4 +6,5 @@
 
 # Конец||The End
 
-# Ссылка на бота: @SSPorKMN_bot
+# Ссылка на бота:
+# @SSPorKMN_bot
