@@ -1,0 +1,6 @@
+{
+    "a":"This is a bot that will play rock paper scissors with you\nPress /scissors to show scissors\nPress /rock to show rock\nPress /paper to show paper",
+    "b":"Paper conquers stone (“paper wraps around stone”)\nStone defeats scissors (“stone dulls scissors”)\nScissors beat paper (“scissors cut paper”)\nIf the players show the same sign, then the game is considered a draw and the game is replayed.\nFor each victory you are awarded one point\nAnd for every defeat to your enemy\nAlso, no one gets points for a draw.\nAfter the game, the number of victories is displayed on the screen:\nyours on the left - your computer on the right",
+
+
+}
