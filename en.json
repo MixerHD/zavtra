@@ -1,6 +1,14 @@
 {
     "a":"This is a bot that will play rock paper scissors with you\nPress /scissors to show scissors\nPress /rock to show rock\nPress /paper to show paper",
     "b":"Paper conquers stone (“paper wraps around stone”)\nStone defeats scissors (“stone dulls scissors”)\nScissors beat paper (“scissors cut paper”)\nIf the players show the same sign, then the game is considered a draw and the game is replayed.\nFor each victory you are awarded one point\nAnd for every defeat to your enemy\nAlso, no one gets points for a draw.\nAfter the game, the number of victories is displayed on the screen:\nyours on the left - your computer on the right",
-
-
+    "e":"Welcome user, this is a rock paper scissors game!!!\nFirst, urgently click on this\nIf you don’t click on it, nothing will work for you",
+    "u":"If you want to start over, click here: /clear_accaunt",
+    "h":"Glad to see you again",
+    "doesntwin":"You lose",
+    "draw":"Draw",
+    "win":"You win!!!",
+    "ro":"Bot placed a stone",
+    "si":"The bot put the scissors",
+    "pa":"The bot delivered the paper",
 }
+c = ["scissors", "rock", "paper"]
